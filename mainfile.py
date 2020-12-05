@@ -8,4 +8,4 @@ def sub(a : int, b : int):
 def sub_str(a : str, b : str):
     return str(int(a)-int(b))
 
-print(add(5,5)+add_str("66"+"1000"))
+print(add(5,5)+add_str("66","1000"))
