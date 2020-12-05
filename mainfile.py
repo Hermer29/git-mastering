@@ -1,11 +1,11 @@
 def add(a : int, b : int):
-    return a+b
+    return str(a+b)
 def add_str(a : str, b : str):
-    return int(a) + int(b)
+    return str(int(a) + int(b))
 
 def sub(a : int, b : int):
-    return a-b
+    return str(a-b)
 def sub_str(a : str, b : str):
-    return int(a)-int(b)
+    return str(int(a)-int(b))
 
-print(sub(add(5,add_str("7", "10")),sub_str("100","56")))
+print(add(5,5)+add_str("66"+"1000"))
